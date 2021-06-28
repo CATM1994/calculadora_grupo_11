@@ -3,3 +3,5 @@ Este proyecto es una calculadora que se realizara para la materia de tecnologias
 
 
 #este es un comentario realizado para un nuveo repositorio
+
+#AQUI CARLOS MIGUEL PUEDE COLOCAR SU COMENTARIO:
