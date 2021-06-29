@@ -21,7 +21,7 @@
 
   http://www.arduino.cc/en/Tutorial/Blink
 */
-
+  long suma(int,int);
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -30,8 +30,14 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+         int a=0; int b=10; long c=0;
+         c=suma(a,b);
 }
+
+
+  long suma(int a,int b){
+   long c=0;
+   c=a+b;
+   return c;
+  }
+  
