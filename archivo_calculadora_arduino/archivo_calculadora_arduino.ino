@@ -23,6 +23,8 @@
 */
   long suma(int,int);
   long resta(int, int);
+  long multiplicacion(int,int);
+  long division(int,int);
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -39,14 +41,18 @@ void loop() {
 
 
   long suma(int a,int b){
-   long c=0;
-   c=a+b;
-   return c;
+
   }
 
 
   long resta(int a, int b){
-    long c=0;
-    c=a-b;
-    return c;
+    
+  }
+  
+  long division(int a, int b){
+    
+  }
+  
+  long multiplicacion(int a, int b){
+    
   }
