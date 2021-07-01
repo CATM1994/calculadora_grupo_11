@@ -23,7 +23,7 @@
 */
   long suma(int,int);
   long resta(int, int);
-  long c=0;
+ 
   long multiplicacion(int,int);
   long division(int,int);
 // the setup function runs once when you press reset or power the board
@@ -41,7 +41,7 @@ void loop() {
 
 
   long suma(int a,int b){
-      c=suma(a,b);
+    long c=suma(a,b);
       return c;
   }
 
