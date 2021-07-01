@@ -41,12 +41,16 @@ void loop() {
 
 
   long suma(int a,int b){
-    long c=suma(a,b);
+    long c=0;
+c=a+b;
       return c;
   }
 
 
   long resta(int a, int b){
+long c=0;
+c=a-b;
+return c;
 
   }
 
